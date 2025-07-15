@@ -62,7 +62,7 @@ const applySorting = initSorting([        // Нам нужно передать 
 ]);
 
 const applyPagination = initPagination(
-    sampleTable.pagination.elements,             // передаём сюда элементы пагинации, найденные в шаблоне
+    sampleTable.pagination.elements,             // передаём сюда элементы пагинации, найденные в шаблоне 
     (el, page, isCurrent) => {                    // и колбэк, чтобы заполнять кнопки страниц данными
         const input = el.querySelector('input');
         const label = el.querySelector('span');
